@@ -1,0 +1,11 @@
+<div class="paragraph">
+  <p><%= @question %></p>
+  <p class="owner">-You</p>
+</div>
+
+<div class="paragraph" id="answer">
+  <p class="answer"><%= @answer %></p>
+  <p class="owner">-Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
